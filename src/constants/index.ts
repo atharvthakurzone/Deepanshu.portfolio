@@ -8,12 +8,6 @@ import type {
 } from "../types";
 
 import {
-  ...
-  zyncpay,
-   deeptravels,
-} from "../assets";
-
-import {
   mobile,
   backend,
   creator,
@@ -34,10 +28,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
   tripguide,
   threejs,
+  zyncpay,
+  deeptravels,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
