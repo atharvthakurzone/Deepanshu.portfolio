@@ -207,47 +207,57 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
+  name: "ZyncPay",
+  description:
+    "Built a production-ready fintech lending platform that enables users across India to apply for personal loans through a streamlined multi-step application process. Designed a high-converting, responsive interface with strong trust signals, optimized performance, and mobile-first UX to maximize lead generation and customer engagement.",
+  tags: [
+    {
+      name: "Next.js",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Framer Motion",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: zyncpay,
+  sourceCodeLink: "https://github.com/atharvthakurzone/ZyncPay-Loan",
+  liveDemo: "https://www.zyncpay.live/",
+},
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
+  name: "Deep Travels",
+  description:
+    "Developed a modern travel booking platform focused on delivering a seamless experience for bus and travel reservations. Engineered a responsive, SEO-friendly website with intuitive navigation, optimized performance, and conversion-focused UI/UX to enhance customer engagement across desktop and mobile devices.",
+  tags: [
+    {
+      name: "Next.js",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "TypeScript",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Tailwind CSS",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Responsive Design",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: deeptravels,
+  sourceCodeLink: "https://github.com/atharvthakurzone/deeptravel",
+  liveDemo: "https://deeptravels.site/",
+},
   {
     name: "Trip Guide",
     description:
