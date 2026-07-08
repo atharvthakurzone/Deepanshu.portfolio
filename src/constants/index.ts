@@ -8,6 +8,12 @@ import type {
 } from "../types";
 
 import {
+  ...
+  zyncpay,
+   deeptravels,
+} from "../assets";
+
+import {
   mobile,
   backend,
   creator,
